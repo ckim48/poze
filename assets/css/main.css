@@ -1319,6 +1319,9 @@ section {
   border-radius: 10px;
 
 }
+#why p{
+  font-size: 20px;
+}
 #how p{
   font-size: 19px;
 }
@@ -1331,6 +1334,12 @@ section {
 #when p{
   font-size: 20px;
 }
+        .custom-bg {
+            background-color: #f8f9fa; /* Change the background color as needed */
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
   .decorated-title::after {
     content: '';
     position: absolute;
