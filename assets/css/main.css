@@ -5,7 +5,41 @@
   background-size: cover;
   position: relative;
 }
-
+.aboutimg{
+  width: 78%;
+}
+.card{
+  height:180px;
+}
+.card:hover{
+  scale:1.05;
+}
+.mymt{
+  margin-top: 33px;
+}
+.notactive{
+  background-color: rgba(214, 214, 214);
+  border-color: 1px solid rgba(214, 214, 214);
+  color:#666;
+}
+.notactive:hover{
+scale:1.00;
+}
+.color-yellow{
+  color:#FFB302;
+}
+.mt-6{
+  margin-top: 110px;
+}
+.publink:hover{
+  color:darkgrey;
+}
+.aboutimg2{
+  width: 190%;
+}
+.text-justify{
+  text-align: justify;
+}
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
