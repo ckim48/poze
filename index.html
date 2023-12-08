@@ -55,6 +55,9 @@
                     <!-- <li><a href="#what">Dream</a></li> -->
 
           <li><a href="#what">Publications</a></li>
+        <li><a href="activities.html">Activites</a></li>
+
+          <li><a href="#login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
 
 <!--           <li><a href="#what">Where</a></li>
           <li><a href="#what">When</a></li> -->
@@ -67,7 +70,45 @@
     </div>
 
   </header><!-- End Header -->
-
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button"id="switchToLogin" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <!-- Login Form -->
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-primary me-2 mt-3">Login</button>
+                        <button type="button" class="btn btn-primary mt-3" id="switchToRegister">Register</button>
+                    </form>
+                    <!-- Registration Form (initially hidden) -->
+                    <form id="registerForm" style="display: none;">
+                        <div class="mb-3">
+                            <label for="newUsername" class="form-label">New Username</label>
+                            <input type="text" class="form-control" id="newUsername" placeholder="Enter a new username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="newPassword" class="form-label">New Password</label>
+                            <input type="password" class="form-control" id="newPassword" placeholder="Enter a new password">
+                        </div>
+                        <button type="button" class="btn btn-primary"id="switchToLogin" data-bs-dismiss="modal" aria-label="Close">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
   <main id="main">
 
     <!-- ======= Hero Slider Section ======= -->
@@ -96,21 +137,90 @@
 
         <div class="row">
             <div class="col-md-6"  data-aos="fade-right">
-                <div class="">
-                    <p><strong>POZE</strong> has many meanings. At the core it stands for <strong>P</strong>erspective, the human aspiration for a Why. It leads to a gradual <strong>O</strong>ptimization of the 4 dimensions that determine our being, which is required to reach the <strong>Z</strong>enith, our highest self; allowing for Exposure to the reality that is, which conditions the full <strong>E</strong>xpression of our inherent potential.  <strong>POZE</strong> translates as “inner peace” in Haitian Creole. ezop is its counterpart in Action. It corresponds to envision the World that can be, zoom in on your potential to make it happen, orchestrate your resources in its pursuit, and participate fully in life.</p>
-                                    <button class="btn btn-primary mt-4"><a class="color-white" href="about.html">Read More</a></button>
+                <div >
+                    <p class="overviewp"><strong>POZE</strong> has many meanings. At the core it stands for <strong>P</strong>erspective, the human aspiration for a Why. It leads to a gradual <strong>O</strong>ptimization of the 4 dimensions that determine our being, which is required to reach the <strong>Z</strong>enith, our highest self; allowing for Exposure to the reality that is, which conditions the full <strong>E</strong>xpression of our inherent potential.  <strong>POZE</strong> translates as “inner peace” in Haitian Creole. ezop is its counterpart in Action. It corresponds to envision the World that can be, zoom in on your potential to make it happen, orchestrate your resources in its pursuit, and participate fully in life.</p>
+                                    <button class="btn btn-primary mt-4"><a class="color-white" href="https://pozebeingchange.wordpress.com/">Learn More</a></button>
 
                 </div>
             </div>
-                        <div class="col-md-6"  data-aos="fade-left">
-  <img src="assets/img/mainimg2.jpg" class="img-fluid howimg d-block mx-auto hh">
-
-
-            </div>
+        <div class="col-md-6" data-aos="fade-left">
+            <img src="assets/img/mainimg2.jpg" class="img-fluid howimg float-end d-block mx-auto hh" alt="Image Description">
+        </div>
         </div>
   </div>
 </section>
+<section class="category-section" id="what">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header d-flex justify-content-between align-items-center mb-4">
+      <h2>Activities</h2>
+    </div>
+    <p>Welcome to <strong>POZE</strong> --Your virtual haven for deep inner peace, rooted in Haitian Creole. Our 20-year approach optimizes soul-heart-mind-body interplay for personal transformation. Visit www.poze.cc, connecting like-minded individuals globally through Mind, Heart, Soul, and Body.
+Join us for a transformative experience with POZE's forward-looking philosophy, encouraging self-discovery and positive impact.</p>
+   <!-- <button class="btn btn-primary mt-4"><a class="color-white" href="https://pozebeingchange.wordpress.com/">Play Activities</a></button> -->
+ <div class="row mt-5 services">
+            <div class="col-lg-4 mb-4">
 
+                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100" onclick="redirectToPage()">
+                          <div class="icon"><i class="bi bi-alarm"></i></div>
+                          <h4 class="title"><a href="">Activity 1</a></h4>
+                          <p class="description">Description for activity1</p>
+                        </div>
+            </div>
+            <!-- Repeat the above card structure for other publications -->
+            
+            <div class="col-lg-4 mb-4">
+                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100" onclick="redirectToPage()">
+                          <div class="icon"><i class="bi bi-controller"></i></div>
+                          <h4 class="title"><a href="">Activity 2</a></h4>
+                          <p class="description">Description for activity</p>
+                        </div>
+            </div>
+            
+            <!-- Add the third card -->
+            
+            <div class="col-lg-4 mb-4">
+                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100" onclick="redirectToPage()">
+                          <div class="icon"><i class="bi bi-pen"></i></div>
+                          <h4 class="title"><a href="">Activity 3</a></h4>
+                          <p class="description">Description for activity</p>
+                        </div>
+            </div>
+                        <div class="col-lg-4 mb-4">
+                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100" onclick="redirectToPage()">
+                          <div class="icon"><i class="bi bi-joystick"></i></div>
+                          <h4 class="title"><a href="">Activity 4</a></h4>
+                          <p class="description">Description for activity</p>
+                        </div>
+            </div>
+                        <div class="col-lg-4 mb-4">
+                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100" onclick="redirectToPage()">
+                          <div class="icon"><i class="bi bi-radioactive"></i></div>
+                          <h4 class="title"><a href="">Activity 5</a></h4>
+                          <p class="description">Description for activity</p>
+                        </div>
+
+
+            </div>
+
+<!--                                     <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">More </h5>
+                        <p class="card-text">Check more publications</p>
+                       <!-- <a href="https://www.blogger.com/blog/page/edit/1024216309485703154/2025222139475780797#" class="btn btn-primary">Read more</a> -->
+                    </div>
+                </div>
+
+                
+            </div> -->
+        </div>
+
+ 
+</p>
+
+</div>
+
+</section>
 <!-- End Culture Category Section -->
 
    <section class="category-section" id="how">
@@ -132,7 +242,7 @@ to identify and share their best Self.</p>
 
 <p><strong>E</strong>xposure – to life as it is.</p>
 
-<button class="btn btn-primary mt-4"><a class="color-white" href="discover.html">Read More</a></button>
+<button class="btn btn-primary mt-4"><a class="color-white" href="https://pozebeingchange.wordpress.com/blog/">Read More</a></button>
 <!-- <p><strong>ezop</strong> offers a safe space to translate the aspiration for meaning into meaningful action.</p> 
 
 <p>Join us to,</p> -->
@@ -140,7 +250,7 @@ to identify and share their best Self.</p>
 
       </div>
       <div class="col-md-6"  data-aos="fade-left">
-<iframe class="d-block mx-auto" width="470" height="315" src="https://www.youtube.com/embed/oXwxHgWwsmc?si=pX6sWPwFSBBxXIOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<iframe class="d-block float-end mx-auto" width="450" height="400" src="https://www.youtube.com/embed/oXwxHgWwsmc?si=pX6sWPwFSBBxXIOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
     </div>
 
 </div>
@@ -229,7 +339,7 @@ to identify and share their best Self.</p>
 
 </section>
 
-<section class="category-section" id="when">
+<!-- <section class="category-section" id="when">
   <div class="container" data-aos="fade-up">
     <div class="section-header d-flex justify-content-between align-items-center mb-4">
       <h2>Contact</h2>
@@ -260,7 +370,7 @@ to identify and share their best Self.</p>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
   </main><!-- End #main -->
 
@@ -300,8 +410,30 @@ to identify and share their best Self.</p>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
+ <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const loginForm = document.getElementById('loginForm');
+            const registerForm = document.getElementById('registerForm');
+            const switchToRegisterBtn = document.getElementById('switchToRegister');
+            const switchToLoginBtn = document.getElementById('switchToLogin');
 
+            switchToRegisterBtn.addEventListener('click', function () {
+                loginForm.style.display = 'none';
+                registerForm.style.display = 'block';
+                document.querySelector('.modal-title').textContent = 'Register';
+            });
+
+            switchToLoginBtn.addEventListener('click', function () {
+                registerForm.style.display = 'none';
+                loginForm.style.display = 'block';
+                document.querySelector('.modal-title').textContent = 'Login';
+            });
+        });
+    </script>
+    <script>
+    function redirectToPage() {
+        window.location.href = 'activities.html';
+    }
 </script>
 </body>
 

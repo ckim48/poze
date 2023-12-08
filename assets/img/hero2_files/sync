@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script>
+		function loadSyncPixel(pixelUrl){
+			var avImgSync = document.createElement('img');
+			avImgSync.width = "1";
+			avImgSync.height = "1";
+			avImgSync.style.width = "0px";
+			avImgSync.style.height = "0px";
+			avImgSync.style.cssFloat = "left";
+			avImgSync.src = pixelUrl;
+			document.body.appendChild(avImgSync);	
+		}
+		
+		function loadSyncScript(pixelUrl){
+			var raSrcSync = document.createElement("script");
+			raSrcSync.src = pixelUrl;
+			raSrcSync.type = "text/javascript";
+			document.body.appendChild(raSrcSync);		
+		}
+		
+		function loadSyncIframe(pixelUrl){
+			var raIfSync = document.createElement("iframe");
+			raIfSync.src = pixelUrl;
+			raIfSync.setAttribute('frameborder','0');
+			raIfSync.setAttribute('scrolling','no');
+			raIfSync.setAttribute('width','0');
+			raIfSync.setAttribute('height','0');
+			document.body.appendChild(raIfSync);		
+		}	
+		</script>
+		</head>
+		<body>
+		<script>
+			loadSyncIframe('https://ssum-sec.casalemedia.com/usermatch?s=201092&cb=https%3A%2F%2Fsync.richaudience.com%2F2066127a3f7c6635eb4f6cac536feb5a%2F%3Fgdpr%3D0%26euconsent%3D%5BGDPR_CONSENT%5D%26uid%3D&gdpr=0&gdpr_consent=%5BGDPR_CONSENT%5D');
+
+			loadSyncIframe('https://us-u.openx.net/w/1.0/cm?id=5263ff89-48b7-4624-96e0-06c74faea01d&ph=2eba3060-f578-4886-93a0-d9a2346966ea&gdpr=0&gdpr_consent=%5BGDPR_CONSENT%5D&r=https%3A%2F%2Fsync.richaudience.com%2Fa9b03dc9bdef0bcb818e9c4110ca0368%2F%3Fuid%3D');
+
+			loadSyncPixel('https://ad.360yield.com/server_match?partner_id=2048&gdpr=0&gdpr_consent=%5BGDPR_CONSENT%5D&r=https%3A%2F%2Fsync.richaudience.com%2F056f32ee5cf49404607e368bd8d3f2af%2F%3Fgdpr%3D0%26euconsent%3D%5BGDPR_CONSENT%5D%26uid%3D%7BPUB_USER_ID%7D');
+
+			loadSyncPixel('https://csync.smilewanted.com/getuid?source=prebid-server&gdpr=0&gdpr_consent=%5BGDPR_CONSENT%5D&us_privacy=&redirect=https%3A%2F%2Fsync.richaudience.com%2F1575707c462b6525f008e40ae9438a8b%2F%3Fgdpr%3D0%26euconsent%3D%5BGDPR_CONSENT%5D%26uid%3D$UID');
+
+			loadSyncPixel('https://sync.admanmedia.com/mm.gif?puid=fcd733d6-edc4-4fbd-91ed-1zz1701999279');
+
+		</script>
+	</body></html>

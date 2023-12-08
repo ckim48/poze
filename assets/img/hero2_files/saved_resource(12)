@@ -1,0 +1,50 @@
+
+var ftGUID_6286413="5455DAF4B0C5C2";
+var ftConfID_6286413="0";
+var ftParams_6286413="ft_custom=R30wqUpzNvhTfWapHWkwqxtzLqcfdjuzH3M3qxxyMqdGdzr9RalprA==&ftOBA=1&ft_domain=pozebeingchange.wordpress.com&ft_ifb=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fpozebeingchange.wordpress.com%2F&gdpr=0&cachebuster=536047.1223472059&ft_dv=%5B%25ft_dv%25%5D";
+var ftKeyword_6286413="";
+var ftCustom_6286413="R30wqUpzNvhTfWapHWkwqxtzLqcfdjuzH3M3qxxyMqdGdzr9RalprA==";
+var ftSection_6286413="";
+var ftSegment_6286413="ajjn,ajv1,akc0,akox";
+var ftSegmentList_6286413=[{s:'ajjn'},{s:'ajv1'},{s:'akc0'},{s:'akox'}];
+var ftRuleMatch_6286413="0";
+var ftTimestamp_6286413="1701999285";
+var ftGeoC2_6286413="kr";
+var ftGeoState_6286413="11";
+var ftGeoCity_6286413="sinsa-dong";
+var ftISP_6286413="korea telecom";
+var ftSpeed_6286413="broadband";
+var ftConnType_6286413="wifi";
+var ftDMA_6286413="410007";
+var ftLong_6286413="127.03";
+var ftLat_6286413="37.53";
+var ftPostal_6286413="06023";
+var ftTimeZone_6286413="+900";
+var ftMobileCarrier_6286413="";
+var ftImp6286413 = {};
+ftImp6286413.privacy = "x";
+ftImp6286413.guidAge = "365";
+ftImp6286413.impID = "5EAA3DA7-2F37-B8E8-240D-6DD8E0A077D4";
+ftImp6286413.duid = "FT:5455DAF4B0C5C2";
+
+ftImp6286413.ft_tpplid = "";
+ftImp6286413.ft_c = {};
+ftImp6286413.gdpr = "0";
+ftImp6286413.gdpr_consent = "";
+ftImp6286413.gdpr_pd = "";
+ftImp6286413.oob_consent = "";
+ftImp6286413.gdprStoredConsent = "";
+ftImp6286413.us_privacy = "";
+ftImp6286413.gpc = "";
+
+ftImp6286413.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_6286413') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/628/6286413/4406877/js/j-6286413-4406877.js";
+    js.id = "ftscript_m6286413";
+    tag.parentNode.insertBefore(js, tag);
+}());
