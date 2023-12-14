@@ -1,4 +1,4 @@
-#hero {
+#hㅂro {
   width: 100%;
   height: 100vh;
   background: url("../img/hero-bg.mov") top center;
@@ -31,7 +31,7 @@
 }
 #hero2:before {
   content: "";
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.33);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -60,12 +60,13 @@
   font-size: 20px;
 }
 .aboutimg{
-  width: 78%;
+  width: 72%;
+  border-radius: 20px;
 }
 .card{
   height:180px;
 }
-.card:hover{
+.indexcard:hover{
   scale:1.05;
 }
 .mymt{
@@ -665,7 +666,10 @@ section {
     display: block;
   }
 }
+.navbar2{
 
+  background: #ADACAC;
+}
 /*--------------------------------------------------------------
 # Posts
 --------------------------------------------------------------*/
@@ -1690,4 +1694,92 @@ section {
 .services .icon-box:hover .icon i {
   color: #B6B6B6;
 }
+
+.faq .faq-list {
+/*  padding: 0 100px;*/
+  float:left;
+/*  border: 1px solid black;*/
+}
+
+.faq .faq-list ul {
+/*  text-align: left !important;*/
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none;
+}
+
+.faq .faq-list li+li {
+  margin-top: 15px;
+}
+
+.faq .faq-list li {
+  padding: 20px;
+  border: 1px solid  black;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+.author-name{
+  color:#646464;
+  margin-left: 34px;
+}
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #97cac2;
+}
+
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #1bac91;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
 
